@@ -1,6 +1,6 @@
 # [TheftBuster](https://github.com/Julien-Mer/theftbuster)
 
-TheftBuster est une application android disponible (ou bientôt) sur PlayStore sans aucune publicité ou fonctionnalités payantes, c'est un projet qui sera présenté au Baccalauréat pour la spécialité Informatique et sciences du numérique.
+TheftBuster est une application android disponible (ou bientôt) sur PlayStore sans aucune publicité ou fonctionnalités payantes, c'est un projet qui sera présenté au Baccalauréat pour la spécialité Informatique et Sciences du Numérique.
 
 Développé à l'aide d'Android Studio, l'application n'est disponible que pour les api 19 (KitKat) ou plus récentes pour un meilleur rapport performances/[compatibilité](https://developer.android.com/about/dashboards/index.html)
 
@@ -8,7 +8,7 @@ Développé à l'aide d'Android Studio, l'application n'est disponible que pour 
 
 ## Fonctionnalités
 ### Fonctionnement
-* TheftBuster est capable d'analyser les SMS reçus qui contiennent le suffixe TheftBuster, suivit du code à 6 chiffres choisi par l'utilisateur sans que l'utilisateur ne le voit. 
+* TheftBuster est capable d'analyser les SMS reçus qui contiennent le suffixe TheftBuster, suivit du code à 6 chiffres, choisi par l'utilisateur, sans que l'utilisateur ne le voit. Et d'analyser l'instruction reçue. 
 * L'application mémorise l'état du téléphone et des commandes pour pouvoir être efficace même en cas de redémarrage.
 * TheftBuster est capable d'informer l'émetteur de la commande SMS des résultats ou il peut alarmer un téléphone de confiance sur l'état actuel du téléphone (suspicion de vol).
 
