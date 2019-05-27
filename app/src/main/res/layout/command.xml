@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageLocate"
+                android:src="@drawable/ic_locate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingRight="0dp"
+                android:tint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/Locate"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="30dp"
+                android:text="@string/view_commandLocate"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/commandsbtn1"
+                android:src="@drawable/ic_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:tag="1"
+                android:tint="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageAlarm"
+                android:src="@drawable/ic_siren"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:tint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/Alarm"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="30dp"
+                android:text="@string/view_commandAlarm"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/commandsbtn2"
+                android:src="@drawable/ic_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:tag="2"
+                android:tint="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageLock"
+                android:src="@drawable/ic_lock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:tint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/Lock"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="30dp"
+                android:text="@string/view_commandLock"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/commandsbtn3"
+                android:src="@drawable/ic_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:tag="3"
+                android:tint="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagePhoto"
+                android:src="@drawable/ic_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:tint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/Photo"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|fill_vertical"
+                android:paddingLeft="30dp"
+                android:text="@string/view_commandPhoto"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/commandsbtn4"
+                android:src="@drawable/ic_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:tag="4"
+                android:tint="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageFormate"
+                android:src="@drawable/ic_formate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:tint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/Formate"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="30dp"
+                android:text="@string/view_commandFormate"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/commandsbtn5"
+                android:src="@drawable/ic_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:tag="5"
+                android:tint="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageCall"
+                android:src="@drawable/ic_call"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:tint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/Call"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="30dp"
+                android:text="@string/view_commandCall"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/commandsbtn6"
+                android:src="@drawable/ic_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:tag="6"
+                android:tint="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

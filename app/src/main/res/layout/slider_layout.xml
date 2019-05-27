@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slider_image"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        app:srcCompat="@drawable/ic_contact" />
+
+    <TextView
+        android:id="@+id/slider_text"
+        android:layout_width="351dp"
+        android:layout_height="214dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:gravity="fill"
+        android:paddingLeft="10dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet libero sit amet dolor pretium, ut posuere lorem volutpat. Nunc dapibus massa eget neque pretium, id mattis nisi ultricies. Proin erat ligula, eleifend quis porta id, consectetur fermentum nulla. Integer commodo, elit vel vestibulum eleifend, felis est sodales neque, ac viverra felis magna et elit."
+        android:textColor="@color/colorTransparentWhite"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/slider_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="212dp"
+        android:text="TITRE"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
